@@ -4,7 +4,7 @@
   "description": "Backend for the project Ranking System",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "095",
