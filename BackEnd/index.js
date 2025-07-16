@@ -1,4 +1,3 @@
-import dotenv from "dotenv";
 import mongoose from "mongoose";
 import express from "express";
 import cors from "cors";
@@ -6,6 +5,7 @@ import http from "http";
 import { Server } from "socket.io";
 import userRoutes from "./Route/userRoute.js";
 import claimRoutes from "./Route/claimRoute.js";
+import dotenv from "dotenv";
 
 
 dotenv.config();
