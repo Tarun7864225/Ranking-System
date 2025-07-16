@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-import ClaimPoints from "../pages/ClaimPoints";
-import Leaderboard from "../pages/Leaderboard";
-import AddUser from "../pages/AddUser";
+import ClaimPoints from "../Pages/ClaimPoints";
+import Leaderboard from "../Pages/Leaderboard";
+import AddUser from "../Pages/AddUser";
 import ClaimHistory from "../Pages/ClaimHistory";
 
 const App: React.FC = () => {
