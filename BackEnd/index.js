@@ -19,7 +19,7 @@ const io = new Server(server, {
 });
 
 // .
-app.use(cors({ origin: process.env.FRONTEND_URL || "http://localhost:5173"}));
+app.use(cors({ origin: 'https://ranking-system-zeta.vercel.app/'}));
 app.use(express.json());
 
 // Attach socket instance to app
