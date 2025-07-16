@@ -26,8 +26,8 @@ app.use(express.json());
 app.set("io", io);
 
 // Routes
-app.use("/api/user", userRoutes);
-app.use("/api/points", claimRoutes);
+app.use("/user", userRoutes);
+app.use("/points", claimRoutes);
 
 // Start Server
 const startServer = async () => {
